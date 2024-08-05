@@ -1,0 +1,185 @@
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
+.header {
+  background-image: url(./Images/lodging.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+}
+
+.header-content {
+  padding: 250px 100px;
+  color: white;
+}
+
+.header-content h1 {
+  font-family: "Bookman Old Style", Georgia, serif;
+  font-size: 65px;
+}
+
+.header-content p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main p {
+  color: #8B8B8B;
+}
+
+.section-1 {
+  background-color: #E4E4E4;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+.section-1 p {
+  color: #8B8B8B;
+  padding: 7px 0px;
+}
+
+.section-1-content {
+  padding: 30px 50px;
+}
+
+.section-table {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+}
+
+.section-1-table img {
+  width: 100%;
+  height: auto;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.section-2 {
+  background-color: #F0F0F0;
+}
+
+
+@media screen and (max-width: 992px) {
+  .menu {
+    background-color: #556370;
+    color: white;
+  }  
+
+  .header {
+    background-image: none;
+    height: auto;
+    border-bottom: 1px solid #D4D4D4;
+  }
+
+  .header-content {
+    color: black;
+    padding: 30px 20px;
+  }
+
+  .header-content h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .header-content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+  }
+
+  p {
+    color: #8B8B8B;
+  }
+
+  .section-1 {
+    background-color: white;
+    border-bottom: 1px solid white;
+  }
+
+  .section-2 {
+    background-color: white;
+  }
+
+  .section-1-content {
+    padding: 30px 20px;
+  }
+
+  .section-table {
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-box {
+    width: 45%;
+    padding: 0;
+  }
+
+  .section-box img {
+    margin-bottom: 30px;
+  }
+
+  .section-2 .section-box {
+    width: 100%;
+    margin: 30px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-box {
+    width: 100%;
+    padding: 0;
+  }
+}
